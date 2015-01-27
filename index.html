@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practica Formulario</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper">
+
+		<header>
+			<h1>Práctica</h1>
+			<hr>
+		</header>
+
+		<div id="content">
+			
+			<h2>Form Here</h2>
+			<hr>
+			<br>
+
+			<form class="form">
+				<label>Name:</label>
+				<input class="forms" placeholder="Name" maxlength="20" type="text" required /><br><br>
+
+				<label>Lastname:</label>
+				<input class="forms" placeholder="LastName" maxlength="20" type="text" required /><br><br>
+
+				<label>Email:</label>
+				<input class="forms" placeholder="Email" type="email" autocomplete  required/><br><br>
+
+				<label>Age:</label>
+				<input class="forms" type="number" size="2"><br><br>
+
+				<label>Website:</label>
+				<input class="forms" placeholder="URL" type="url" required><br><br>
+
+				<label>Message:</label>
+				<textarea class="move"></textarea><br><br>
+
+				<fieldset>
+					<legend>Card Details</legend>
+					<label>Name:</label>
+					<input class="forms" placeholder="Name" maxlength="20" type="text" required /><br><br>
+
+					<label>Card Number:</label>
+					<input class="forms" type="number" required /><br><br>
+
+					<label>Security Code:</label>
+					<input class="forms" maxlength="4" pattern="[0-9A-Z]{3}" type="password" required /><br><br>
+
+					<label>Date:</label>
+					<input class="forms" type="month" required /><br><br>
+				</fieldset>
+
+
+
+				<input type="submit" value="SUBMIT">
+				<input type="reset" value="RESET"> 
+
+			</form>
+		</div> <!-- /content -->
+
+	</div> <!-- /wrapper -->
+</body>
+</html>

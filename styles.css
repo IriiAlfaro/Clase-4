@@ -1,0 +1,15 @@
+
+
+/*------------------ Stilos de Form -------------------*/
+
+
+.forms{
+
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	padding: 0.5rem;
+	position: absolute;
+}
+
